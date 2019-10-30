@@ -16,10 +16,7 @@ public class RepositoryAnnotationProcessorDemo {
         Compiler compile = new Compiler(sourceDirectory, targetDirectory);
         compile.setProcessors(new RepositoryAnnotationProccessor());
         compile.compile(
-                "com.yuetu.deep.in.java.apt.reflection.CrudRepository",
-                "com.yuetu.deep.in.java.apt.reflection.Repository",
-                "com.yuetu.deep.in.java.apt.reflection.User",
-                "com.yuetu.deep.in.java.apt.reflection.UserRepository"
+                "com/yuetu/deep/in/java/apt/reflection/CrudRepository"
 
         );
     }

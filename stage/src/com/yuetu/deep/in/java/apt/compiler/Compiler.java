@@ -57,4 +57,11 @@ public class Compiler {
         compilationTask.call();
 
     }
+    public File getSourceDirectory() {
+        return sourceDirectory;
+    }
+
+    public File getTargetDirectory() {
+        return targetDirectory;
+    }
 }
