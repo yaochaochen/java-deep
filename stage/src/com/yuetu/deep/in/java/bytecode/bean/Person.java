@@ -1,4 +1,4 @@
-package com.yuetu.deep.in.java.bytecode;
+package com.yuetu.deep.in.java.bytecode.bean;
 
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
