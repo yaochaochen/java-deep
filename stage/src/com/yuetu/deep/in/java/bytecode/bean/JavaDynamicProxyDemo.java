@@ -19,10 +19,6 @@ public class JavaDynamicProxyDemo {
 
     public static void main(String[] args) throws Exception {
         Person person = new Person();
-        // Java 动态代理
-        // 动态代理的对象它是 java.lang.reflect.Proxy 的子类（实例），
-        // 换言之，动态代理的对象所在类是动态合成，它继承了 java.lang.reflect.Proxy 类，同时，实现了多期望的接口列表
-        // 缺点：只能拦截接口，不能拦截整个类，势必对编程不太友好
 
         // Java 动态代理
         // 动态代理的对象它是 java.lang.reflect.Proxy 的子类（实例），
