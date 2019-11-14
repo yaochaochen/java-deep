@@ -34,7 +34,7 @@ public class PersonBeanCustomization {
                 .findFirst()
                 .ifPresent(propertyDescriptor -> {
                             // 为 "updateTime" 属性描述注册属性修改器
-                            propertyDescriptor.setPropertyEditorClass(UpdateTimePropertyEditor.class);
+                            propertyDescriptor.setPropertyEditorClass(com.yuetu.deep.in.java.beans.customization.UpdateTimePropertyEditor.class);
                             PropertyEditor propertyEditor = propertyDescriptor.createPropertyEditor(person);
                             // 添加属性变化事件
                             propertyEditor.addPropertyChangeListener(event -> {

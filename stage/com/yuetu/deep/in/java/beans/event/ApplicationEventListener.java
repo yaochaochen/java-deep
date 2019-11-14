@@ -1,5 +1,6 @@
 package com.yuetu.deep.in.java.beans.event;
 
+
 import java.util.EventListener;
 
 public interface ApplicationEventListener<E extends ApplicationEvent> extends EventListener {
