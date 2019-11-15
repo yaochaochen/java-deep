@@ -63,6 +63,6 @@ public class DirDemo {
         return -1L;
     }
     public static void main(String[] args) {
-        System.out.println(new DirDemo(new File("/Users/yaochaochen/project")).getSpace() / 1024);
+        System.out.println(new DirDemo(new File("/Users/yaochaochen/project")).getSpace() / 1024  +": MB");
     }
 }
