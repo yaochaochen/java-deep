@@ -6,7 +6,7 @@ import java.nio.file.Paths;
 
 public class PathDemo {
 
-    public static final String USER_DIR_LOCACTION = System.getProperty("user.dir");
+    public static final String USER_DIR_LOCATION = System.getProperty("user.dir");
 
     public static void main(String[] args) {
 //        dispalyPathInfo();
@@ -14,18 +14,18 @@ public class PathDemo {
     }
 
     private static void displayPathNormalize() {
-            Path path = Paths.get(USER_DIR_LOCACTION);
+            Path path = Paths.get(USER_DIR_LOCATION);
             System.out.println(path.normalize());
 
     }
 
     private static void dispalyPathInfo() {
 
-        Path path = Paths.get(USER_DIR_LOCACTION);
+        Path path = Paths.get(USER_DIR_LOCATION);
 
         System.out.printf("toString: %s/n", path);
 
-        File file = new File(USER_DIR_LOCACTION);
+        File file = new File(USER_DIR_LOCATION);
         Path pathFromFile = file.toPath();
         Path pathFromURI = Paths.get(pathFromFile.toUri());
 
