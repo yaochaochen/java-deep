@@ -2,7 +2,6 @@ package com.yuetu.deep.in.java.io;
 
 import org.apache.commons.io.IOUtils;
 
-import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.util.HashMap;
