@@ -17,6 +17,8 @@ public class StreamDemo {
         lists.add(new RtdbData("B", "0"));
         Map<String, List<RtdbData>> map = lists.stream().collect(Collectors.groupingBy(RtdbData::getValues));
         System.out.println(map.size());
+
+
     }
 
 }
