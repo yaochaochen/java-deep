@@ -37,6 +37,6 @@ public class TreeMapDemo {
         for (int i = 5; i > 0; i--) {
             list2.add(new DTO(i));
         }
-        Collections.sort(list,comparator);
+        Collections.sort(list2,comparator);
     }
 }
