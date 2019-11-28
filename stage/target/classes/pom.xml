@@ -8,7 +8,7 @@
         <java.version>1.8</java.version>
     </properties>
     <groupId>java-deep</groupId>
-    <artifactId>java-deep</artifactId>
+    <artifactId>stage</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
@@ -29,11 +29,6 @@
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
             <version>2.6</version>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.10</version>
         </dependency>
 
     </dependencies>
