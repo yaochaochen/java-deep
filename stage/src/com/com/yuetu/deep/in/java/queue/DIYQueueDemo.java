@@ -20,7 +20,7 @@ public class DIYQueueDemo {
         public void run() {
             boolean success = queue.put(message);
             if(success) {
-                System.out.println("put success" + message);
+                System.out.println("put success " + message);
                 return;
             }
         }
@@ -30,7 +30,7 @@ public class DIYQueueDemo {
         @Override
         public void run() {
             String message = queue.take();
-            System.out.println(" consumer message" + message);
+            System.out.println(" consumer message " + message);
         }
     }
 
@@ -45,5 +45,6 @@ public class DIYQueueDemo {
             }
             executor.submit( new Consumer());
          }
+        executor.shutdown();
     }
 }
