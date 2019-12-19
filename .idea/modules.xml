@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/stage/java-deep.iml" filepath="$PROJECT_DIR$/stage/java-deep.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-deep.iml" filepath="$PROJECT_DIR$/java-deep.iml" />
     </modules>
   </component>
 </project>
